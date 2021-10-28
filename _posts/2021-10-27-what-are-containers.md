@@ -63,7 +63,7 @@ There are few common ways to put your software in a safe sandbox:
 - Virtualization: translating programs through a hypervisor to create a [Virtual Machine (VM)](https://en.wikipedia.org/wiki/Virtual_machine).
 - [Kernel namespacing](https://en.wikipedia.org/wiki/Linux_namespaces): Linux can run processes in a special way so that in their view of the OS, they can’t see other processes or kernel resources.
 
-It is important to note that sandboxing and communication are constantly in tension. To get around process isolation, there various methods for [inter-process communication (IPC)](https://en.wikipedia.org/wiki/Inter-process_communication). Containers can be made to share portions of their filesystem with the host.
+It is important to note that sandboxing and communication are constantly in tension. To get around process isolation, there are various methods for [inter-process communication (IPC)](https://en.wikipedia.org/wiki/Inter-process_communication). Containers can be made to share portions of their filesystem with the host.
 
 Moral of the story? Be thoughtful about putting things in boxes, because you will probably want to open them later (although that's not necessarily a bad thing).
 
