@@ -21,7 +21,7 @@
 title: Adam Aposhian
 email: aposhian.dev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Understanding tech
+  Explaining computers
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://adamaposhian.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Aposhian
